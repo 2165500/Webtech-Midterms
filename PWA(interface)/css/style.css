@@ -1,0 +1,47 @@
+html, body, #nav {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 14px/20px "Proxima Nova", "Helvetica Neue", arial, sans-serif;
+  color: #676e74;
+  background: #E9EEF1;
+}
+
+#nav{
+	position: fixed;
+	width:220px;
+	background-color:#1F2123;
+	color: #fff;
+	z-index: +10;
+}
+#nav ul{
+	list-style-type: none;
+	padding:15px;
+	margin:0;
+}
+#nav ul li.head{
+	color: #50585f;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+	padding: 8px 15px;
+	text-transform: uppercase;
+}
+#nav ul li a{
+	display: block;
+	padding: 10px 18px;
+    margin: 5px 0;
+    border-radius: 2px;
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 1px;
+}
+#nav ul li a:hover{
+	background-color: #2b2e31;
+}
+#nav ul li.active a{
+	color: #fff;
+  	background-color: #2DA5EE;
+}
