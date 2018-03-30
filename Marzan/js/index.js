@@ -1,20 +1,12 @@
-// JavaScript Document
-$('.menuBar i').click(function(){
-  $('.menuBar').toggleClass('open');
-  $('.menu').toggleClass('open');
-});
+var	menu = document.querySelector('.menu');
+var	menuBar = document.querySelector('.menuBar');
+var closeBtn = document.querySelector('.close');
+menuBar.addEventListener('click', function(){
+  menu.className += ' open';
+})
 
-$('.hourToggle').click(function(){
-  $(this).siblings('.hours').toggleClass('open');  
-});
 
-$('.menu a').click(function(event){
-  event.preventDefault();
-  var cat = $(this).attr('href');
-  if(cat == 'all'){
-    $('.rest').css('display','block');
-  }else{  
-    $('.rest').css('display','none');
-    $('.rest.'+cat).css('display','block');
-  }
-});
+closeBtn.addEventListener('click', function(){
+  menu.className = 'menu';
+ 
+})

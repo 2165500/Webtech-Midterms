@@ -80,7 +80,13 @@ html, body {
 .menu a:hover:before{
     width: 50px;
 }
-
+.menu li.close {
+  display: none;
+  font-size: 44px;
+	font-weight: 700;
+  color: #A4A4A4;
+  cursor: pointer;
+}
 /* Content */
 .content{
     width: 100%;
@@ -255,7 +261,7 @@ html, body {
 		width: 98%;
 	}
 	.menuBar{
-		display: block;
+		display: inline;
 		z-index: 100000;
 	}
 	.menuBar i{
@@ -264,5 +270,11 @@ html, body {
 	}
 	.menuBar i:hover{
 		color: #bbb;
-	}
+	}.menu li.close {
+    	display: inline-block;
+    	position: absolute;
+		left: 100px;
+		top: 220px;
+		z-index: auto;
+  }
 }
