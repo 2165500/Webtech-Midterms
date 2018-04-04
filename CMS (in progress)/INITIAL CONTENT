@@ -20,3 +20,24 @@ News and Announcements: In this page, the admin can post announcements and news 
 Contact us: This section displays the contact details of the library.
 
 FAQ: This resource was created to answer questions that are commonly asked by the library users and get help from a librarian at anytime.
+
+In the Appearance section, we will enable the Menus function to be able to create a new menu and add the pages as Main Navigation.
+
+Other features are the following:
+
+Search Functionality: We will create a search function where users can search specific books, magazines, research papers or by keywords.
+
+Separate Catalogs: We are creating separate custom post types for books, magazines, journals, and research papers to make it organized and to make it easier for the admin.
+
+Sidebar Widgets: We will be using widgets to show categories on the archive pages for books, magazines, and research papers.
+
+User Accounts: We will create only one Administrator account and a different role for the Librarians who will manage the contents (books, magazines, research papers). The librarian’s account is limited to adding, editing, and deleting contents.
+
+Plugins
+Admin Menu Editor: Used for editing the admin menu for each users (administrator and librarians). We will limit the admin menu for the librarians to avoid messing up the wordpress configs or settings. Their only task is to add, edit, and delete books, magazines, research papers, news and announcements.
+
+Advanced Custom Fields: Used for adding custom fields on each custom post types. For example, on books, the existing fields will be used for the Book Title and the Book Description. We will be adding a custom field for the Author Name and Published Date.
+
+Custom Post Type UI: Used for creating custom post types (for book, magazine, and  research paper)
+
+Gravity Forms: Used for creating forms (contact form, request form, etc.)
