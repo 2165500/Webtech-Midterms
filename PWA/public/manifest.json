@@ -1,0 +1,31 @@
+{
+  "name": "RestoLoco: Search for a place to eat",
+  "short_name": "Restoloco",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background-color": "#11BAF2",
+  "theme_color":"blue",
+  "icons": [
+    {
+      "src": "/src/images/icons/96x75.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/src/images/icons/144x113.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/src/images/icons/256x201.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/src/images/icons/512x401.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

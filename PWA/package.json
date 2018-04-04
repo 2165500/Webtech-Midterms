@@ -1,0 +1,15 @@
+{
+  "name": "Restaurant",
+  "version": "0.0.1",
+  "description": "Search for affordable Restaurants",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 -p 1026"
+  },
+  "keywords": [
+    "pwa"
+  ],
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
