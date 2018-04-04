@@ -1,0 +1,22 @@
+Midterm Project No. 1
+Saint Louis University Library
+CMS : WordPress
+
+INITIAL PLAN FOR THE CONTENT
+First, we will be creating a theme for our SLU Library website from scratch using HTML, CSS, JavaScript, and PHP
+
+Then we'll be creating some generic pages structures within the PAGES section of the WordPress such as:
+
+About SLU Library: This page contains a brief description of the SLU library and their organizational chart.
+
+Books: In this page, it shows all the available books and book categories in the library.
+
+Magazines: In this page, we can view different magazine categories and all the magazines available.
+
+Research Papers: In this page, it shows available research papers.
+
+News and Announcements: In this page, the admin can post announcements and news which can be viewed by the users and keep them updated and informed.
+
+Contact us: This section displays the contact details of the library.
+
+FAQ: This resource was created to answer questions that are commonly asked by the library users and get help from a librarian at anytime.
