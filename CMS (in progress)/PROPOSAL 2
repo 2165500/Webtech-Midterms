@@ -1,0 +1,32 @@
+Stall Rental Collection Management Application
+
+Problem: In a day to day basis, rent collectors roam around the market for the collection of fees from vendors. They do record payments, late payments, and early payments. But in some cases, inconsistency and redundancy takes place and cause ambiguity between the vendors and collectors. Sometimes, the government may unintentionally collect more than what is supposed to be collected because the collectors and the vendors don’t have records, or if they do have records, they may easily lose them. These records might just be written on a piece of paper. Wouldn’t it be nice if there is an easier, consistent, and more reliable way of keeping records and generating payment reports?
+
+Solution: In this case, we are proposing the Stall Rental Collection Management Application which gives many advantages to the market officers as well as the stall tenants such as the following:
+Easier and better collection of fees for the rented stalls
+A more organized list of vendor
+Creates a smoother and more transparent transaction between the collector and the vendor
+It automatically updates all the payment transactions 
+Reduce, if not eliminate ambiguity
+Generates well - organized records and reports.
+Lessens the work of the collector
+It is very convenient and reliable at all times
+Ensures that all transactions will remain confidential, fixed, and precise
+
+Objectives:
+To easily monitor the payment of every vendor.
+To be able to manage efficiently the collection of rents among vendors.
+To show a more transparent transaction between the collector and the vendors.
+Easy to maintain or recover all the recent mode of transactions.
+To collect payments in an orderly manner
+
+Features:
+Has a built-in calculator
+Built-in calendar for schedule purposes (eg. payment)
+Displays the list of the vendors with its payments, due date of the payment
+Adds interests if their payment is overdue per day, week or month
+Generates a summary of the total collected rent per stall tenants.
+Issues a ticket indicating if the stall tenant has already paid his/her rent 
+Eg. 	Green ticket - Paid
+	Red ticket - Unpaid
+	Yellow - Unpaid + Interest
