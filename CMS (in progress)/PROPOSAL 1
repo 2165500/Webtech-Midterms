@@ -1,0 +1,21 @@
+Veterinary Office Mobile Record Management Application
+
+Problem: One of the advocacies of the city veterinary office is zero percent rabies infection among dogs and humans. With the summer season in the horizon, employees from the city veterinary office go to barangays across the city to conduct free vaccinations in their respective barangay hall or to conduct a door to door visit to conduct the free vaccinations of the dog. The employees carry a folder containing the names and addresses of the owners, number of pets in the house, complete information of the owner’s pet and the papers indicating if their pet has already had the proper vaccines administered to them.
+
+Solution: Instead of carrying 2-3 folders containing the information, we are proposing the Mobile Record Management Application for the employees to help them in their campaign in minimizing or eradicating rabies related incidents.
+
+Objectives:
+To automate the work of the Veterinary physicians’ work and reduce their difficulty in managing their files which contains the information on their duty. 
+
+Features:
+The app will have a backup feature which will automatically backup the data that has been inputted by the Veterinary physician. The backup database will be provided by our company and if desired by the Veterinary physician to link the account to online backup such as onedrive, the Veterinary physician may do so as long as the Veterinary physician agrees to terms and conditions.
+
+The app will have a “create group function” which will allow two or more Veterinary physicians’ to work together on a certain project in a single database. This will also avoid the problem with duplicate data with different contents resulting to confusion between groups.
+
+The app will have a Calendar feature that will help the Veterinary physician to set a schedule and be reminded at the same time for the next place to conduct a vaccination. With this also comes the “To-do list feature”.
+
+The app will also display the Statistics of the barangays have the most highest cases of rabies related incidents. It would be displayed according to the Veterinary physicians’ choice, either Pie graph, Line graph or Bar Graph and be measured according to either by highest case, date, or by number of dogs.
+
+The app will also have a Done notification. This will notify other Veterinary physicians that the certain Barangay is already done with the vaccination program. This will solve the problem where Veterinary physicians will visit Barangays that is already finished with the program.
+
+This app will also  have a Latest News and Updates. This will notify the Veterinary Offices about the incidents within a certain barangay and be able to give first aid or proper medication to the victim of rabies. 
