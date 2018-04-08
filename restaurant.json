@@ -1,0 +1,40 @@
+{
+    "restaurant": [
+        {
+            "name":"Gerry's Grill",
+            "location":"",
+            "operating hours":"",
+        },
+        {
+            "name":"Grumpy Joe",
+            "location":"",
+            "operating hours":"",
+        },
+        {
+            "name":"",
+            "location":"",
+            "operating hours":"",
+        },
+        {
+            "name":"",
+            "location":"",
+            "operating hours":"",
+        },
+        {
+            "name":"",
+            "location":"",
+            "operating hours":"",
+        },
+        {
+            "name":"",
+            "location":"",
+            "operating hours":"",
+        },
+        {
+            "name":"",
+            "location":"",
+            "operating hours":"",
+        },
+        
+    ]
+}
