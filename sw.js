@@ -1,9 +1,6 @@
 const staticAssets = [
     './',
     './styles.css',
-    './name of js file',
-    './name of json file',
-    './images/domogs.jpg'
     
 ];
 
@@ -37,6 +34,6 @@ async function networkFirst(req) {
         return res;
     } catch (error) {
         const cachedResponse = await cache.match(req);
-        return cachedResponse || await caches.match('./name of json file');
+        return cachedResponse || await caches.match('./fallback.json');
     }
 }
