@@ -1,0 +1,354 @@
+{
+    "restaurants": [
+        {
+            "name": "Solibao Restaurant",
+            "imageurl": "./src/images/filipino1.JPG",
+            "category": "Filipino",
+            "price": "300 - 500",
+            "description": "Solibao is a home-grown Filipino restaurant established in 1972 Its name was inspired by the drums used by the Igorot in the Cordilleras. It is best known for its yummy Filipino recipes.",
+            "location": "Lake Dr, Baguio, Benguet",
+            "website": "http://solibao.com",
+            "locationImg": "src/images/maps/solibao-burnham.png"
+        },
+        {
+            "name": "Pamana",
+            "imageurl": "./src/images/filipino2.JPG",
+            "category": "Korean",
+            "price": "150 - 300",
+            "description": "All reviews bulalo crispy pata shrimp barrio fiesta filipino food baguio city branch yummy craving resto. You'll find delicious Filipino food at its best! Bulalo, Kansi, Crispy Pata, crispy fried, and more!",
+            "location": "Igorot Stairs, Upper Session Rd, Baguio, 2600 Benguet",
+            "website": "http://www.pamanarestaurant.com",
+            "locationImg": "src/images/maps/pamana.png"
+        },
+        {
+            "name": "Chocolate de Batirol",
+            "imageurl": "./src/images/filipino4.JPG",
+            "category": "Filipino",
+            "price": "100 - 500",
+            "description": "Chocolate de Batirol is a Filipino Cafe specializing in hot, thick, bittersweet tsokolate drink made from local cacao beans. This is a popular merienda hangout in Camp John Hay, Baguio City.",
+            "location": "Igorot Park, Camp John Hay, Baguio, 2600 Benguet",
+            "website": "http://chocolatedebatirol.com/",
+            "locationImg": "src/images/maps/chocolate.png"
+        },
+        {
+            "name": "Tradisyon",
+            "imageurl": "./src/images/filipino5.JPG",
+            "category": "Filipino",
+            "price": "4,000 - 13,000",
+            "description": "Tradisyon is Azalea Residences' in-house restaurant which serves Filipino, American and Continental dishes. At Tradisyon Restaurant and Café inside Azalea Residences Baguio..",
+            "location": "7, Leonard Wood Loop, Baguio, Benguet",
+            "website": "https://www.azaleabaguio.com/dining-bar",
+            "locationImg": "src/images/maps/trad.png"
+        },
+        {
+            "name": "OH MY GULAY",
+            "imageurl": "./src/images/filipino7.jpg",
+            "category": "Filipino",
+            "price": "Price: 300 - 500",
+            "description": "Oh My Gulay! – that much-hyped art venue cum resto right in the middle of Baguio City's Session Road. Oh My Gulay - 5F La Azotea 108, Session Rd, Baguio, 2600 BenguetBldg., 108 Upper Session Road.",
+            "location": "108, Session Rd, Baguio, 2600 Benguet",
+            "website": "https://www.facebook.com/OhMyGulayArtistCafeBaguio",
+            "locationImg": "src/images/maps/gulay.PNG"
+        },
+        {
+            "name": "GERRY'S GRILL",
+            "imageurl": "./src/images/filipino8.jpg",
+            "category": "Filipino",
+            "price": "Price: 300 - 500 ",
+            "description": "Gerry's Grill, Baguio: See 48 unbiased reviews of Gerry's Grill, rated 3.5 of 5 on TripAdvisor and ranked #138 of 388 restaurants in Baguio.",
+            "location": "SM City Baguio, Upper Session Rd, Brgy. Session-Gov. Pack, Baguio, 2600 Benguet",
+            "website": "http://gerrysgrill.com/ph",
+            "locationImg": "src/images/maps/gerry.PNG"
+        },
+        {
+            "name": "FOREST HOUSE",
+            "imageurl": "./src/images/filipino9.JPG",
+            "category": "Filipino",
+            "price": "Price: 800 above",
+            "description": "Forest House Bed and Breakfast, Baguio: See 58 traveler reviews, 125 candid photos, and great deals for Forest House Bed and Breakfast, ranked #5 of 101 B and  Bs / inns in Baguio and rated 4.5 of 5.",
+            "location": "Loakan Rd, Camp John Hay, Baguio, 2600 Benguet",
+            "website": "http://foresthouse.ph",
+            "locationImg": "src/images/maps/forest.PNG"
+        },
+        {
+            "name": "Mang Inasal",
+            "imageurl": "./src/images/filipino10.JPG",
+            "category": "Filipino",
+            "price": "Price: 39 - 300",
+            "description": "Mang Inasal Philippines, Inc., also known as Mang Inasal, is a barbecue fast food restaurant chain in the Philippines, established in Iloilo City in 2003.",
+            "location": "SM City Baguio, Luneta Hill Drive, Upper Session Road, Luneta Hill, Brgy. Session, Baguio, 2600 Benguet",
+            "website": "https://www.manginasal.com",
+            "locationImg": "src/images/maps/mang-inasal.PNG"
+        },
+        {
+            "name": "KUYA J",
+            "imageurl": "./src/images/filipino11.JPG",
+            "category": "Filipino",
+            "price": "Price: 180 - 500",
+            "description": "Kuya J Baguio City Hall. Branch Location: Upper Ground Floor, Travelite Expess Hotel, Shuntug Street Cor. Fernado Bautista Drive, Baguio City.",
+            "location": "Travel Express Hotel, Shuntug Rd, Baguio, 2600 Benguet",
+            "website": "http://www.kuyaj.ph",
+            "locationImg": "src/images/maps/kuya.PNG"
+        },
+        {
+            "name": "CHEF'S HOME",
+            "imageurl": "./src/images/filipino12.JPG",
+            "category": "Filipino",
+            "price": "Price: 500 - 1,000",
+            "description": "The Chef is back home for more authentic Southeast Asian Cuisine! We're revisiting Chef's Home, one of our favorite restaurants in Baguio featuring Southeast Asian specialties.",
+            "location": "No. 88 Unit C, Old Sicat Hotel, Aspiras - Palispis Hwy, Baguio, 2600",
+            "website": "https://www.facebook.com/chefshomebaguio",
+            "locationImg": "src/images/maps/home.PNG"
+        },
+        {
+            "name": "CAFE BY THE RUINS",
+            "imageurl": "./src/images/filipino3.JPG",
+            "category": "Filipino",
+            "price": "Price: 300 - 500",
+            "description": "Cafe by the Ruins is a Filipino, Cafe, Asian, Vegetarian Friendly, Vegan Options. This is located at city hall burnham park upper session road hot chocolate baguio city.",
+            "location": "225 Upper Session Rd, Baguio, 2600 Benguet",
+            "website": "https://www.facebook.com/cafebytheruinsbaguio",
+            "locationImg": "src/images/maps/ruins.PNG"
+        },
+        {
+            "name": "Grumpy Joe",
+            "imageurl": "./src/images/filipino13.jpg",
+            "category": "Filipino",
+            "price": "Price: 1,000 above",
+            "description": "If you want a complete meal, Grumpy Joe is the perfect place. We ordered the COMBO A (Chicken, Spaghetti, Fries and Pizza) Php 140.",
+            "location": "Leonard Wood Rd, Baguio, 2600 Benguet",
+            "website": "https://www.facebook.com/Grumpy-Joe-592977007460400",
+            "locationImg": "src/images/maps/grump-joe.PNG"
+        },
+        {
+            "name": "OZARK RESTAURANT",
+            "imageurl": "./src/images/american1.jpg",
+            "category": "American",
+            "price": "Price: 300 - 500",
+            "description": "This is a rare find in Baguio city. A cozy and spacious place away from the busy areas in the city that's also budget friendly. Best of all, its right next to Ozarks diner. Delicious American southern cuisine with giant servings!",
+            "location": "2 Bear'S Trail Corner, Bareng Drive, Baguio, 2600 Benguet",
+            "website": "http://ozarkbaguiocity.com",
+            "locationImg": "src/images/maps/zark.PNG"
+        },
+        {
+            "name": "ROUTE 55",
+            "imageurl": "./src/images/american2.jpg",
+            "category": "American",
+            "price": "Price: 100 above",
+            "description": "Route 55: Good Food Bringing a Dead Zone to Life. Legarda Road is a long road starting off at the Heritage Mansion and ending at the intersection of Marcos Highway/Ben Palispis Highway.",
+            "location": "No.55 Legarda Road, 55 Legarda Rd, Barangay Burnham - Legarda, Baguio, 2600 Benguet",
+            "website": "https://www.facebook.com/Roue55",
+            "locationImg": "src/images/maps/55.png"
+        },
+        {
+            "name": "MELT BISTRO",
+            "imageurl": "./src/images/american3.jpg",
+            "category": "American",
+            "price": "Price: 100 above",
+            "description": "Melt is located inside Camp John Hay's AyalaLand TechnoHub. Melt There are rows of street level restaurants in the area. You won't miss Melt because it's right beside 7-Eleven.",
+            "location": "Camp John Hay, Baguio, Benguet",
+            "website": "https://www.ourawesomeplanet.com/awesome/2016/06/melt-steakhouse-baguio.html",
+            "locationImg": "src/images/maps/tros.PNG"
+        },
+        {
+            "name": "ARMY NAVY",
+            "imageurl": "./src/images/american4.JPG",
+            "category": "American",
+            "price": "Price: 100 above",
+            "description": "ArmyNavy Burger + Burrito is a food service company pioneered in the Philippines which specializes in a unique burger + burrito concept. References rooted in the military denote a culture of discipline, command, service, freedom and honor. ",
+            "location": "Space 1, Baguio Technohub Retail Plaza Cluster F, Loakan Rd, Camp John Hay, Baguio, Benguet",
+            "website": "http://www.armynavy.com.ph",
+            "locationImg": "src/images/maps/army.PNG"
+        },
+        {
+            "name": "ROADHOUSE BARN RESTAURANT",
+            "imageurl": "./src/images/american5.jpg",
+            "category": "American",
+            "price": "Price: 100 above",
+            "description": "Roadhouse Barn is very homey and rustic while still giving off a western steakhouse and barn motif.",
+            "location": "1 Ignacio Villamor St, Baguio, 2600 Benguet",
+            "website": "https://findgoodbaguiofoods.com/2016/03/22/raising-roadhouse-barn-restaurant",
+            "locationImg": "src/images/maps/barn.PNG"
+        },
+        {
+            "name": "SHAKEY'S",
+            "imageurl": "./src/images/american6.jpg",
+            "category": "American",
+            "price": "Price: 100 above",
+            "description": "Shakeys SM Baguio (Pizzerias) is located at SM City Baguio Upper Ground Floor Session Road Baguio City, Philippines.",
+            "location": "Lower Wright Park, Romulo Dr, Baguio, Benguet/SM City Baguio, Rambakan Dr, Baguio, 2600 Benguet/SM Baguio, Luneta Hill Dr, Baguio, 2600 Benguet/Motorpool Ordonio Drive, Camp John Hay, Baguio, 2600 Benguet",
+            "website": "https://www.shakeyspizza.ph/index.asp",
+            "locationImg": "src/images/maps/shake.PNG"
+        },
+        {
+            "name": "GOOD TASTE",
+            "imageurl": "./src/images/chinese1.jpg",
+            "category": "Chinese",
+            "price": "Price: 50 above",
+            "description": "Good Taste Restaurant is probably the most famous restaurant in Baguio City. The hotel staff, locals and taxi drivers know both locations. While we were still planning our trip, we made sure to include Good Taste in our itinerary.",
+            "location": "Otek St, Baguio, Benguet",
+            "website": "https://ph.phonebooky.com/restaurant/good-taste-cafe-and-restaurant-bar-baguio-city-5efdd3ec-d3e2-4eac-87e7-16f6affdab20",
+            "locationImg": "src/images/maps/good-taste.PNG"
+        },
+        {
+            "name": "CENTRAL PARK",
+            "imageurl": "./src/images/chinese2.JPG",
+            "category": "Chinese",
+            "price": "Price: 50 above",
+            "description": "Central Park is a Chinese restaurant located at  Kisad Road, Carino Street, Baguio City. The restaurant is a one story building and a single large room for dining.",
+            "location": "136 Carino Street, Baguio, 2600 Benguet",
+            "website": "https://www.facebook.com/Central-Park-Restaurant-107061188242",
+            "locationImg": "src/images/maps/park.PNG"
+        },
+        {
+            "name": "CHOWKING",
+            "imageurl": "./src/images/chinese3.jpg",
+            "category": "Chinese",
+            "price": "Price: 50 above",
+            "description": "To be the go-to Quick Service Restaurant for Chinese food that inspires success as we deliver superior value through our great-tasting and affordable meals. Their mission is to bring the joy of eating to everyone by serving great tasting food!",
+            "location": "Ground Floor ES Clemente Building, Otek Shanum St. corner Lake drive, Baguio Cit, Baguio, 2600 Benguet",
+            "website": "https://chowkingdelivery.com",
+            "locationImg": "src/images/maps/chow.png"
+        },
+        {
+            "name": "DON HENRICO'S PIZZA, PASTA AND MORE",
+            "imageurl": "./src/images/italian1.jpg",
+            "category": "Italian",
+            "price": "Price: 300 - 500",
+            "description": "Don Henrico's: The Home of Great Pizza, Pasta and More. When people talk about Italian food that that ... Today, it has 10 branches spread across Luzon and the Visayas, including the original branch along Session Road, SM Baguio",
+            "location": "45 Session Rd, Baguio, Benguet",
+            "website": "http://www.donhenricos.net",
+            "locationImg": "src/images/maps/don.PNG"
+        },
+        {
+            "name": "RED RUSTIKZ",
+            "imageurl": "./src/images/italian2.jpg",
+            "category": "Italian",
+            "price": "Price: 300 and above",
+            "description": "Red Rustikz Baguio takes your taste buds on a journey through Italy and Spain. A must restaurant to try in Baguio City. Read more about Red Rustikz Baguio.",
+            "location": "82 Gen. Luna Rd, Brgy. Upper General Luna, Baguio, 2600 Benguet",
+            "website": "https://www.facebook.com/pages/Red-Rustikz",
+            "locationImg": "src/images/maps/red2.PNG"
+        },
+        {
+            "name": "HILL STATION",
+            "imageurl": "./src/images/italian3.jpg",
+            "category": "Italian",
+            "price": "Price: 300 and above",
+            "description": "HILL STATION is one of the best restaurants in Baguio showcasing the different flavors and influences of Mitos Benitez-Yñiquez's travel all around Europe, America and Asia. It won back-to-back recognition in the Miele's Best Restaurants in Asia awards.",
+            "location": "Casa Vallejo, Upper Session Rd, Baguio, 2600 Benguet",
+            "website": "http://hillstationbaguio.com",
+            "locationImg": "src/images/maps/hill.PNG"
+        },
+        {
+            "name": "SECRET GARDEN",
+            "imageurl": "./src/images/italian4.JPG",
+            "category": "Italian",
+            "price": "Price: 300 and above",
+            "description": "Secret Garden is an Italian restaurant that allows customers to enjoy a tranquil atmosphere as it is located a bit farther from the busy main street. It serves popular Italian dishes like pizza and pasta.",
+            "location": "34 Paterno St., South Drive, Baguio, 2600 Benguet",
+            "website": "https://www.facebook.com/baguiosecretgarden",
+            "locationImg": "src/images/maps/garden.PNG"
+        },
+        {
+            "name": "50'S DINER",
+            "imageurl": "./src/images/italian5.jpg",
+            "category": "Italian",
+            "price": "Price: 300 and above",
+            "description": "50's Diner is an American retro diner filled with pop culture memorabilia such as posters of American icons, & neon lights. The whole vibe is reminisent of diners with servers on skates. Their menu includes steaks, pastas, fish and chips - as well as some Pinoy comfort food favorites.",
+            "location": "105 Session Rd, Baguio, 2600 Benguet",
+            "website": "https://www.tripadvisor.com.ph/Restaurant_Review-g298445-d1531784-Reviews-50_s_Diner-Baguio_Benguet_Province_Cordillera_Region_Luzon.html",
+            "locationImg": "src/images/maps/diner.PNG"
+        },
+        {
+            "name": "FORK N' DAGGER",
+            "imageurl": "./src/images/italian6.jpg",
+            "category": "Italian",
+            "price": "Price: 300 and above",
+            "description": "The season for family and friends to get together is here! But then again, any time is a good time for a get-together with delectable food. So whatever occasion is being celebrated, whether it's a birthday, a holiday, or a regular night out, one place comes to mind – Fork N' Dagger, located at Nevada Square.",
+            "location": "Nevada Square, Greenwater Road Corner 2, Baguio City, Baguio, 2600 Benguet",
+            "website": "https://www.facebook.com/forkNdaggerBaguio",
+            "locationImg": "src/images/maps/frok.PNG"
+        },
+        {
+            "name": "KOREAN PALACE RESTAURANT",
+            "imageurl": "./src/images/korean1.jpg",
+            "category": "Korean",
+            "price": "Price: 500 - 1000",
+            "description": "Dining area is spacious as the restaurant occupies a 2-story wooden house. Korean-brand icecream and drinks at extra cost and you'll also have the photo-op wearing those traditional dresses, take a selfie.",
+            "location": "38 South Dr, Camp John Hay, Baguio, 2600 Benguet",
+            "website": "https://www.facebook.com/baguiocitykoreanpalace",
+            "locationImg": "src/images/maps/korean-palace.PNG"
+        },
+        {
+            "name": "HODORI RESTAURANT",
+            "imageurl": "./src/images/korean2.jpg",
+            "category": "Korean",
+            "price": "Price: 500 - 1000",
+            "description": "If you're looking for affordable but delicious #Koreanfood then Hodori Korean-Japanese Restaurant is the place to go! They have 2 branches and both are located at Mabini Street. The new one is at the 5th floor of the building beside Tiongsan.",
+            "location": "Lower Mabini St, Baguio, Benguet",
+            "website": "https://www.facebook.com/pages/Hodori-Korean-Japanese-Restaurant",
+            "locationImg": "src/images/maps/hodori.PNG"
+        },
+        {
+            "name": "URBAN SEOUL RESTAURANT",
+            "imageurl": "./src/images/korean3.jpg",
+            "category": "Korean",
+            "price": "Price: 200 - 1000",
+            "description": "The food was great but I think the korean restaurant that serves Samgyeopsal near Starwood hotel in Kias has the same serving yet their price is cheaper. ... Get quick answers from Urban Seoul Korean Restaurant staff and past visitors.",
+            "location": "ECCO Building, Marcos Highway, Brgy. Balsigan, Baguio, 2600 Benguet",
+            "website": "https://www.facebook.com/pages/Urban-Seoul-Restaurant",
+            "locationImg": "src/images/maps/seoul.PNG"
+        },
+        {
+            "name": "RED STATION",
+            "imageurl": "./src/images/korean4.JPG",
+            "category": "Korean",
+            "price": "Price: 200 - 1000",
+            "description": "Red Station (Another Korean Resto in B-city). I must say, Baguio's restaurant landscape has changed dramatically over the years, especially with the influx of Korean English learners and even families now.",
+            "location": "Legarda Rd, Baguio, Benguet",
+            "website": "https://www.facebook.com/Red1047",
+            "locationImg": "src/images/maps/red.PNG"
+        },
+        {
+            "name": "MR. CHICKEN",
+            "imageurl": "./src/images/korean5.jpg",
+            "category": "Korean",
+            "price": "Price: 150 - 999",
+            "description": "Mr. Chicken in Baguio, Benguet, categorized as restaurant located in Legarda Rd, Lungsod ng Baguio, Philippines.",
+            "location": "Benguet, Baguio, cooyeesan hotel",
+            "website": "https://www.facebook.com/mrchickenphil",
+            "locationImg": "src/images/maps/chicken.PNG"
+        },
+        {
+            "name": "RED DEVIL KOREAN RESTAURANT",
+            "imageurl": "./src/images/korean6.jpg",
+            "category": "Korean",
+            "price": "Price: 150 - 999",
+            "description": "Red Devil Korean Restaurant in Baguio, Benguet, categorized as korean,restaurant located in Baguio City Leagarda Road, Baguio City, Philippines.",
+            "location": "Baguio City Leagarda Road, Baguio City",
+            "website": "https://ph.phonebooky.com/restaurant/red-devil-korean-restaurant-baguio-city",
+            "locationImg": "src/images/maps/dev.PNG"
+        },
+        {
+            "name": "CHIL CHEON GAK RESTAURANT",
+            "imageurl": "./src/images/korean7.jpg",
+            "category": "Korean",
+            "price": "Price: 150 - 999",
+            "description": "Discount hotels near Chil Cheon Gak Korean Restaurant in Baguio, Baguio. SAVE UP TO 75% OFF hotels near Restaurants and Cafes in Baguio. Rates from USD $18. Book online for instant Confirmation and 24/7 Live Support!",
+            "location": "Romel Suites Bldg., 168 Naguilian Rd, Quezon Hill Proper, Baguio, 2600 Benguet",
+            "website": "https://www.facebook.com/Chil-Cheon-Gak-Restaurant",
+            "locationImg": "src/images/maps/chil.PNG"
+        },
+        {
+            "name": "CAMPING DATE",
+            "imageurl": "./src/images/korean8.jpg",
+            "category": "Korean",
+            "price": "Price: 150 - 999",
+            "description": "Camping in an urbanized City may be odd for some but for the adventurous, this new destination offers an ambiance for those dreaming for a date in the woods.",
+            "location": "2-a, 16 Legarda Rd, Baguio, Benguet",
+            "website": "https://www.facebook.com/campingdate",
+            "locationImg": "src/images/maps/date.PNG"
+        }
+    ]
+}
