@@ -10,6 +10,32 @@ if ('serviceWorker' in navigator) {
 }
 
 
+var menu = document.querySelector('.menu');
+var menuBar = document.querySelector('.menuBar');
+var closeBtn = document.querySelector('.close');
+var hourToggle = document.querySelector('.hourToggle'); 
+var overlay = document.querySelector('.overlay');
+
+menuBar.addEventListener('click', function(){
+  menu.className += ' open';
+    overlay.className += ' open';
+})
+
+
+closeBtn.addEventListener('click', function(){
+  menu.className = 'menu';
+    overlay.className = 'overlay';
+ 
+})
+
+window.addEventListener('click', function(event){
+  if(event.target === overlay){
+    menu.className = 'menu';
+    overlay.className = 'overlay';
+  }
+})
+
+
 var path = window.location.href;
 var index = path.lastIndexOf("/");
 
