@@ -30,9 +30,9 @@ html,body {
 	font-size: 25pt;
 	float: left;
 	margin: 0px 0px 0px 0px;
-	padding: 25px 15px 10px 15px;
+	padding: 9px 15px 10px 15px;
 	top: 0;
-	z-index: 100000;
+	z-index: 999;
 	height: 48px;
 	background: #fff;
 	left: 0;
@@ -49,6 +49,9 @@ html,body {
 	padding: 50px 10px 0px 25px;
 	z-index: 1000;
 }
+.menu li.close {
+	display: none;
+}
 .menu h1 {
 	width: 100%;
 	float: left;
@@ -63,7 +66,7 @@ html,body {
 .menu a {
 	width: 100%;
 	float: left;
-	padding: 5px;
+	padding: 5px 0;
 	margin: 0px 0px 0px 0px;
 	text-align: left;
 	color: #000;
@@ -263,80 +266,93 @@ html,body {
 }
 
 @media screen and (max-width:800px) {
-.rest {
-	width: 98%;
-}
+	.rest {
+		width: 98%;
+	}
 }
 
 @media screen and (max-width: 720px) {
-.menu {
-	left: -150px;
-	transition: all 0.2s ease;
-	height: 100%;
+	.menu {
+		left: -200px;
+		transition: all 0.2s ease;
+		height: 100%;
+		padding: 15px;
+	}
+	.menu.open {
+		left: 0;
+		background: #fff;
+	}
+	.rest img {
+		width: 100%;
+		height: 100%;
+		float: left;
+		position: relative;
+		overflow: hidden;
+	}
+	.content {
+		padding: 25px !important;
+		width: 100%;
+		margin-top: 0;
+	}
+	.rest {
+		width: 98%;
+	}
+	.menuBar {
+	    cursor: pointer;
+		display: inline;
+		width: 60px;
+	}
+	.menuBar i {
+		transition: all 0.2s ease;
+		cursor: pointer;
+	}
+	.menuBar i:hover {
+		color: #bbb;
+	}
+	.menu li.close {
+		font-size: 65px;
+		padding: 13px 0;
+		display: inline-block;
+		position: absolute;
+		top: auto;
+	    bottom: 100%;
+	    left: 0;
+	    width: 60px;
+	    height: 50px;
+	    border-radius: 0;
+	    background: #FFF;
+	    color: #000;
+	    box-shadow: none;
+	    z-index: 9999;
+	    border-bottom: 2px solid #ccc;
+	}
+	.overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.4);
+		opacity: 0;
+		z-index: -1;
+		transition: opacity 100ms linear;
+	}
+	.overlay.open {
+		z-index: 11;
+		opacity: 1;
+	}
+	.main-nav img {
+		padding-right: 2px;
+	}
+		.main-nav {
+		height: 50px;
+		background-color: #FFF;
+		border-bottom: 2px solid #ccc;
+		line-height: 48px;
+		padding: 0 16px;
+	}
 }
-.menu.open {
-	left: 0;
-	background: #fff;
-}
-.rest img {
-	width: 100%;
-	height: 100%;
-	float: left;
-	position: relative;
-	overflow: hidden;
-}
-.content {
-	padding: 50px 25px 5px 25px !important;
-	width: 100%;
-	margin-top: 10px;
-}
-.rest {
-	width: 98%;
-}
-.menuBar {
-	display: inline;
-	width: 60px;
-}
-.menuBar i {
-	transition: all 0.2s ease;
-	cursor: pointer;
-}
-.menuBar i:hover {
-	color: #bbb;
-}
-.menu li.close {
-	display: inline-block;
-	position: absolute;
-	left: 100px;
-	top: 270px;
-	z-index: auto;
-}
-.overlay {
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
-	opacity: 0;
-	z-index: -1;
-	transition: opacity 100ms linear;
-}
-.overlay.open {
-	z-index: 0;
-	opacity: 1;
-}
-.main-nav img {
-	padding-right: 2px;
-}
-	.main-nav {
-	height: 50px;
-	background-color: #FFF;
-	border-bottom: 3px solid #ccc;
-	line-height: 48px;
-	padding: 0 16px;
-}
-}
+
 /* modals */
 .modalDialog {
     position: fixed;
